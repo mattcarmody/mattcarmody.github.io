@@ -7,20 +7,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <style>*{font-family:"Ubuntu", sans-serif;}</style>
+    <style>
+        *{font-family:"Ubuntu", sans-serif;}
+        .project{border: 1px solid green;}
+    </style>
 </head>
 <body>
 <div class="container col-md-8">
 
-    <h3>Projects</h3>
-    <h5><a href="https://mattcarmody.github.io/">Personal Site</a></h5>
-    <p>Welcome. I dabbled in web development on and off over the past four or five years, but I didn't build any projects that are still online. Now I'm happily dusting off the cobwebs and taking the opportunity to create a digital presence for myself. It's intended to serve as both a hub for me to keep my priorities concise and exlicit, as well as a place people can check in on me, see what I'm working on or learn a bit about my backstory.</p>
+    <h3>Active Projects</h3>
+    
+    <div class="project">
+        <h5>Slipstream - <a href="https://github.com/BruceDLong/CodeDog">GitHub repo</a></h5>
+        <p>
+            I'm one of three core Slipstream developers.
+            I write core functionality of the CodeDog platform, contribute to the Proteus engine and drive documentation for the project.
+        </p>
+    </div>
+    <div class="project">
+        <h5>Pyparsing, a Python package - <a href="https://github.com/pyparsing/pyparsing">GitHub repo</a></h5>
+        <p>
+            pyparsing is a Python package for constructing a parser, used in ~140k GitHub repositories.
+            I contribute unit tests and documentation to the project.
+        </p>
+    </div>
+    
+    <div class="project">
+        <h5><a href="https://mattcarmody.github.io/">Personal Site</a></h5>
+        <p>Web development isn't an area I've invested a great deal of time in, but I enjoy tinkering with this site.</p>
+    </div>
+    
+    <h2>Shelved Projects</h2>
     <h5>Trackr - <a href="https://github.com/mattcarmody/trackr">Github repo</a></h5>
     <p>In the process of learning Python, I've been creating a "trackr" that monitors my day to day learning progress. It was entirely automated and all data was stored in a spreadsheet, showing me my quantified activity on sites I frequent for language learning, coding exercises and reading. I've since moved it to SQLite and added aspects of my physical activity, which require that I dictate an email with my activity to a dedicated email address. As I write this I'm in the process of creating automated visuals of my progress on a weekly, monthly, quarterly and annual basis, each with it's own scope that helps me plan the upcoming interval. The hope is to make it a web app and tie it into this site, though at this point I have no exposure to Python web frameworks and what wil be involved in that undertaking. (I'm using it as an opportunity to learn about Python web frameworks, not because they're necessarily the best tool for this job.) It could very well continue developing into a more extensive dashboard that pulls disparate elements of my life into one place and helps me stay on track.</p>
-    <h5><a href="http://www.unbundledfares.com">Unbundled Fares</a></h5>
-    <p>I love traveling and doing more with less. The merging of those two in the form of budget airlines has always appealed to me and I've been a happy customer for some time. I never found a thorough resource on the subject though, outside of a mess of outdated, click-bait blog posts. Nothing I could recommend to people who would ask me if I had any recommendations when it came to flying them. So I made one. Now I get to read a lot about a subject I love, filter out the pulp and train my thinking through writing! It's a lot of fun, but it's not being allocated a lot of time at the moment while I put the majority of my focus into the development projects above.</p>
     <h5>Warm Up Quiz - <a href="https://github.com/mattcarmody/Warm-Up-Quiz">Github repo</a></h5>
     <p>Though it was started first, this been largely sidelined by Trackr as far as where my attention goes lately. It's a bit of a meta project, a Python based script that quizzes me on Python concepts. It takes into account how well I understand each concept and when I last saw it, choosing quiz material accordingly. It's waiting for me to layout a more consistent set of data tables, complete the move from a spreadsheet to a database, potentially move from the terminal to a GUI, and expand the quiz material by scraping the  Python docs. Once it is functional with a thorough set of Python material, it can be expanded to other topics.</p>
+    
     
 </div>   
 <!-- Optional JavaScript -->
