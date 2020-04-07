@@ -10,9 +10,9 @@ footer {
     margin-bottom: 1%;
     position: relative;
 }
-.project img {
+.repo {
     position: absolute;
-    top: 3%;
+    top: calc(3% + 16px);
     right: 3%;
 }
 @media (min-width: 1200px) {
