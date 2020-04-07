@@ -12,8 +12,8 @@ footer {
 }
 .project img {
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 3%;
+    right: 3%;
 }
 @media (min-width: 1200px) {
     .container {
