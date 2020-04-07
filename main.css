@@ -12,7 +12,7 @@ footer {
 }
 .repo {
     position: absolute;
-    top: calc(3% + 16px);
+    top: calc(3% + 32px);
     right: 3%;
 }
 @media (min-width: 1200px) {
