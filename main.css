@@ -4,9 +4,11 @@
 footer {
     margin: auto;
     position: relative;
+    text-align: center;
 }
 #footer-holder {
     position: fixed;
+    text-align: center;
 }
 .project {
     border: 1px solid green;
