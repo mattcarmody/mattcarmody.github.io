@@ -3,6 +3,10 @@
 }
 footer {
     margin: auto;
+    position: relative;
+}
+#footer-holder {
+    position: fixed;
 }
 .project {
     border: 1px solid green;
