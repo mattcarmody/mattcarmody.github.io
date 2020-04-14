@@ -26,3 +26,6 @@ footer {
         max-width: 800px;
     }
 }
+#narrow-block {
+    max-width: 600px;
+}
